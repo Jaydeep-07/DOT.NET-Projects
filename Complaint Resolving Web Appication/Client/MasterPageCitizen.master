@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCitizen.master.cs" Inherits="Client_MasterPageCitizen" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+      <title>Compalint Resolving Web Application</title>
+    <link href="adminStyles/admin.css" rel="stylesheet" />
+    <script type="text/javascript" src="adminStyles/menu.js"></script>
+
+
+  
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div class="content">
+                  <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Complaint Resolving Web Application</h1>
+         </div>
+     
+        <div id="sidebar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+           <div class="sachin">
+               <div class="menu">
+            <ul>
+                <li><a href="HomePageClient.aspx">Home</a></li>
+                
+                
+                   <li><a href="#" > Register Complaint</a>
+                                <ul>
+                                    <li><a href="GarbageComplaints.aspx">Complaint About Garbage</a></li>
+                                    <li><a href="RoadComplaint.aspx">Complaint About Road</a></li>
+                                     <li><a href="WaterComplaint.aspx">Complaint About Water</a></li>
+                                    
+                                          <li><a href="ElectricityComplaints.aspx">Complaint About Electricity</a></li>
+                        </ul>
+                       
+                    </li>
+                  <li><a href="ViewAllComplaints.aspx">View All Complaints </a>
+                    </li>
+                <%--<li><a href="#">View Complete Complaints </a>
+                    </li>
+                --%>
+                <li><a href="startPage.aspx">LOGOUT</a></li><br />
+             </ul></div>
+                    </div>
+         </div>
+         <div class="clear"></div>
+
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <div class="clear"></div>
+       <%-- <div class="footer">
+                <h2>CopyRight@Sachingore.com</h2>
+            </div>
+    --%>
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.site-footer {
+    background:#333;
+}
+
+.site-footer, .page-wrap::after {
+    height: auto;
+}
+.footer_wrap {
+    margin: 0px auto;
+    width: 95%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.footer_wrap .col2 {
+  float: left;
+  width: 28%;
+  height: auto;
+  text-align: justify;
+  padding: 0 10% 0 0;
+}
+
+
+.footer_wrap .col {
+    float: left;
+    width: 23%;
+    height: auto;
+}
+
+.footer_wrap .col.colA {
+    width: 25%;
+}
+footer .social{
+	  background: url("../images/social.png") no-repeat scroll -3px 5% / 24px auto transparent;
+	color: #FFF;
+	margin: 0px;
+	padding: 5px 24px;
+	position: relative;
+	text-align: left;
+	width: auto;
+	line-height: 22px;
+}
+
+footer .social.twit{
+	  background: url("../images/social.png") no-repeat scroll -3px 38% / 24px auto transparent;
+}
+
+footer .social.link{
+	  background: url("../images/social.png") no-repeat scroll -3px 69% / 24px auto transparent;
+}
+
+footer .social.google{
+	  background: url("../images/social.png") no-repeat scroll -3px 99% / 24px auto transparent;
+}
+
+.col-lg-12{
+	width:100%;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: left;
+}
+.col-6{
+	width:45%;
+	float:left;
+	padding:10px;
+}
+.col-6  h3{
+	margin:40px 0 0;
+	
+}
+.col-6 p{
+	margin:20px 0;
+}
+

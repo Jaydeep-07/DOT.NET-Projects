@@ -1,0 +1,26 @@
+﻿.searchbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position: relative;
+	left: -6px;
+	border-radius: 0 25px 25px 0;
+	width:150px;
+	height: 30px;
+	outline: none;
+	cursor: pointer;
+	background: #ffc107;
+	color: #fff;
+    top: 0px;
+}
+.searchbtn {
+   
+	background: #fff;
+	width: 340px;
+	height: 30px;
+	border: none;
+	outline: none;
+	padding: 0 25px;
+	border-radius: 25px 0 0 25px;
+
+}

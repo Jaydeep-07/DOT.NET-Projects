@@ -1,0 +1,62 @@
+﻿  .auto-style2 {
+             width: 256px;
+             text-align: center;
+         }
+        .auto-style3 {
+            width: 481px;
+        }
+        .auto-style4 {
+            height: 26px;
+        }
+        .auto-style5 {
+            color: #990000;
+            text-align: center;
+        }
+        .auto-style9 {
+           
+            float: none;
+             width: 30%;
+            /*width: 320px;*/
+		height: 250px;
+	    width: 650px;
+	/*position: absolute;*/
+	top: 50%;
+    left: 50%;
+	transform: translateX(5%) translateY(0%);
+	background: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border: 1px solid #ffd800;
+	box-shadow: 0 0 8px 3px #ffd800;
+        }
+        .txtBox {
+            border:none;
+            border-bottom:1px solid black;
+            background: transparent;
+            outline:none;
+            height:20px;
+            width: 301px;
+            color: black;
+            /*font-size:16px;*/
+
+        }
+        .btnRegister 
+        {
+          
+            border:none;
+            outline:none;
+            height:45px;
+            background:#fb2525;
+            color:#fff;
+            font-size:18px;
+            border-radius:20px;
+        
+
+        }
+
+        .btnRegister:hover 
+        {
+            cursor:pointer;
+            background:#ffc107;
+            color:#000;
+        }
+

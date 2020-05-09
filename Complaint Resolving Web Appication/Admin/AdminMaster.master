@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Admin_AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Compalint Resolving Web Application</title>
+    <link href="adminStyles/admin.css" rel="stylesheet" />
+     <script type="text/javascript" src="adminStyles/menu.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div class="content">
+                  <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Complaint Resolving Web Application</h1>
+         </div>
+     
+        <div id="sidebar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+           <div class="sachin">
+               <div class="menu">
+            <ul>
+                <li><a href="Homepage.aspx">Home</a></li>
+               
+                
+                   <li><a href="#" > Add Servicemans</a>
+                                <ul>
+                        <li><a href="AddElectricalServiceman.aspx">Add Electrical Servicemans</a></li>
+                        <li><a href="AddWaterServiceman.aspx">Add Water Servicemans</a></li>
+                        <li><a href="AddRoadServiceMan.aspx">Add Road Servicemans</a></li>
+                        <li><a href="AddGarbageServiceMans.aspx">Add Garbage Servicemans</a></li>
+                    </ul>
+                       
+                    </li>
+                <br />
+                  <li><a href="#">View ServiceMans</a>
+                    <ul>
+                        <li><a href="ViewElectricalServiceMans.aspx">View Electrical Servicemans</a></li>
+                        <li><a href="ViewWaterServicemans.aspx">View Water Servicemans</a></li>
+                        <li><a href="ViewRoadServiceMans.aspx">View Road Servicemans</a></li>
+                        <li><a href="ViewGarbageServiceMans.aspx">View Garbage Servicemans</a></li>
+                         
+                    </ul></li>
+               
+                <br />
+
+                <li><a href="#">View Complaints</a>
+                <ul>
+                        <li><a href="ViewElectricityComplaints.aspx">View Electrical Complaints</a></li>
+                        <li><a href="ViewWaterComplaints.aspx">View Water Complaints</a></li>
+                        <li><a href="ViewRoadComplaints.aspx">View Road Complaints</a></li>
+                     <li><a href="ViewGarbageComplaint.aspx">View Garbage Complaints</a></li>
+  
+                         
+                    </ul>
+              
+
+                </li>
+                
+                <li><a href="AdminLogin.aspx">LOGOUT</a></li><br />
+             </ul></div>
+                    </div>
+         </div>
+         <div class="clear"></div>
+
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <div class="clear"></div>
+       <%-- <div class="footer">
+                <h2>CopyRight@Sachingore.com</h2>
+            </div>
+    --%>
+    </form>
+</body>
+</html>
